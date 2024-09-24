@@ -2,6 +2,8 @@ drop database if exists cursomysql;
 
 create database cursomysql;
 
+use cursomysql;
+
 create table clientes(
 	codigo int auto_increment,
     nombre varchar(50) not null,
